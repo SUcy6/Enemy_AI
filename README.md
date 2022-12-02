@@ -25,7 +25,7 @@ how to avoid being attacked by the enemy for the player. I do list some extended
 
  
 
-![game.png](game.png)
+![game.jpg](game.jpg)
 
 ## How to play:
 
