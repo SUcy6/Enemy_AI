@@ -1,6 +1,5 @@
 # Enemy AI
 
----
 
 This is the project from my class - “Game Artificial Intelligence”. In this project, I implement the ***“Steering Forces”*** ( as proposed in [https://www.red3d.com/cwr/steer/](https://www.red3d.com/cwr/steer/)). It can give the NPC enemy an aesthetic behavior of “**tracing the player**”. The goal is to make the game NPC look like a real player in the tracing-and-killing game. 
 
@@ -62,7 +61,9 @@ load some images to represent the player, and the enemy.
 
 ## Demo Video:
 
-[https://youtu.be/gcfyqkOlEuU](https://youtu.be/gcfyqkOlEuU)
+[![https://youtu.be/gcfyqkOlEuU](https://img.youtube.com/vi/gcfyqkOlEuU/0.jpg)](https://www.youtube.com/watch?v=gcfyqkOlEuU)
+
+View on YouTube: [https://youtu.be/gcfyqkOlEuU](https://youtu.be/gcfyqkOlEuU)
 
 ## **Extended Part:**
 
