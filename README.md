@@ -21,7 +21,7 @@ how to avoid being attacked by the enemy for the player. I do list some extended
 
  
 
-![enemy.png](Enemy%20AI%20b18d41961fa94714807fd35cf67859d3/enemy.png)
+![game.png](game.png)
 
 ## How to play:
 
