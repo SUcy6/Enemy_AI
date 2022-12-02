@@ -72,7 +72,7 @@ void m_Enemy::render(SDL_Renderer * renderer, int width, int height) {
 	}
 
     // move
-    if (true) {
+    if (target == NULL) {
         Wander();
     }
     else {
@@ -111,15 +111,13 @@ float random_range(float wchange) {
 }
 
 // wandering
-// reynold's wander https://www.researchgate.net/publication/2495826_Steering_Behaviors_For_Autonomous_Characters
-void m_Enemy::Wander() { 
+void m_Enemy::Wander() {
     vec2 desire = *velo;
-    desire.scare(wdistance); // wander distance
-    // length: wander force power, angle: wander angle + current angle
+    desire.scare(wdistance);
     vec2 v = vec2(wforce*cos(atan2(velo->y, velo->x)+wangle), wforce*sin(atan2(velo->y,velo->x)+wangle));
     desire.add(v);
     desire.scare(maxforce);
-    wangle += random_range(wchange); // random change angle to update wangle
+    wangle += random_range(wchange);
     vec2 steer = desire;
     acceleration->add(steer);
     velo->add(*acceleration);

@@ -117,7 +117,7 @@ void m_Game::render() {
         && abs(m_player->getPos().y - m_enemy->getPos().y) < (m_enemy->getHeight() + m_player->getHeight())/2)
     {
         if (health > 0) {health--;}
-        else {health = 0;}   // I did not set game over
+        else {health = 0;}   
     }
     sprintf(text,"Health: %d",health);
     renderTTF(text);

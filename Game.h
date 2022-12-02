@@ -66,7 +66,7 @@ public:
         wangle = rand()%361;
         wdistance = 4;
         wforce = 10;
-        wchange = 78;
+        wchange = 50;
     }
     ~m_Enemy() {
         SDL_DestroyTexture(e_Texture);
