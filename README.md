@@ -5,8 +5,13 @@
 This is the project from my class - “Game Artificial Intelligence”. In this project, I implement the ***“Steering Forces”*** ( as proposed in [https://www.red3d.com/cwr/steer/](https://www.red3d.com/cwr/steer/)). It can give the NPC enemy an aesthetic behavior of “**tracing the player**”. The goal is to make the game NPC look like a real player in the tracing-and-killing game. 
 
 Without using this algorithm, the game ai CAN trace the player, but in an unnatural way (say running straight forward). The steering force allows the ai to perform “**tracing around**” just like human players. This would make the enemy ai much more REAL.
+<br>
 
----
+> *Abstract from the paper*: ***“Steering Forces”*** are
+> * Solutions for one requirement of autonomous characters in animation and games: the ability to navigate around their world in a life-like and improvisational manner. 
+> * Largely independent of the particulars of the character's means of locomotion. 
+> * used to achieve higher level goals (For example: get from here to there while avoiding obstacles, follow this corridor, join that group of characters...)
+
 
 ## Intro:
 
